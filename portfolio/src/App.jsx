@@ -1,25 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './componets/Header'
-import Navigation from './componets/Nav'
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Contact from './pages/Contact'
+import Portfolio from './pages/Portfolio'
+import Resume from './pages/Resume'
+import About from './pages/About'
+import Footer from './componets/Footer'
 
-
-
-const App = () => {
+function App(){
   return (
-    <Router>
-      <Header />
-      <Navigation />
-      <Switch>
-        <Route path="/" exact component={AboutMe} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
-      </Switch>
-    </Router>
-  );
-};
+    <BrowserRouter>
+    <Header/>
+      <Routes>
+        <Route path='/' element={<About/>}/>
+        <Route path= '/contact' element={<Contact/>}/>
+        <Route path= '/portfolio' element={<Portfolio/>}/>
+        <Route path= '/resume' element={<Resume/>}/>
+      </Routes>
+
+      <Footer/>
+
+
+    </BrowserRouter>
+  )
+}
 
 export default App
