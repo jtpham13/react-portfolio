@@ -2,18 +2,24 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import './componets/Nav'
+import Header from './componets/Header'
+import Navigation from './componets/Nav'
+
 
 
 const App = () => {
-  const name = 'joey'
-
-  return (<div>
-    <h1>Joey Pham</h1>
-    
-  </div>)
-  
-
-}
+  return (
+    <Router>
+      <Header />
+      <Navigation />
+      <Switch>
+        <Route path="/" exact component={AboutMe} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+      </Switch>
+    </Router>
+  );
+};
 
 export default App
