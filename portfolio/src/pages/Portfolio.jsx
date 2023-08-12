@@ -1,4 +1,5 @@
 import Image from "../assets/bookbusta.png";
+import Project from "../components/Project";
 
 function Portfolio() {
   const projs = [
@@ -23,15 +24,9 @@ function Portfolio() {
     <section>
       <h2>Projects</h2>
       <div className="project-wrapper">
-        {projs.map((project, i) => (
-          <div key={i} className="card">
-            <img className="class-img-top" src={project.image} />
-            <div className="card-body">
-              <a href={project.link}>{project.name}</a>
-              <p></p>
-            </div>
-          </div>
-        ))}
+        {projs.map((project, i) =>(
+         <Project key={i} project={project} />
+       ) )  }
       </div>
     </section>
   );
