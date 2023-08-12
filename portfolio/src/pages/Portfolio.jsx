@@ -5,7 +5,7 @@ function Portfolio() {
   const projs = [
     {
       name: "Proj 1",
-      link: "https://www.google.com/",
+      link: "https://bookbusta-950538aa625f.herokuapp.com/",
       image: Image,
     },
     {
