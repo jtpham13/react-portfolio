@@ -5,11 +5,11 @@ function About() {
     <div>
       <h1>About Me</h1>
       <p>
-        Hello! I'm Joseph Pham, a passionate Fullstack Developer with a deep-rooted fascination for technology. I'm currently on an exciting journey, enrolled in a Fullstack bootcamp
+        Hello! I'm Joseph Pham, a passionate Fullstack Developer with a passion for technology. I'm currently on an exciting journey, enrolled in a Fullstack bootcamp
         at the University of Pennsylvania, where I'm honing my skills and shaping my path in the world of Web Development.
       </p>
       <p>
-        My journey into the tech realm might seem unconventional, as I have a background as a retired athlete. The
+        My journey into the tech realm might not seem tradional, as I have a background as a retired athlete. The
         same drive, dedication, and perseverance that fueled my athletic pursuits now propel me in the direction of
         technology. I've taken the lessons learned from my athletic career—like discipline, teamwork, and pushing
         beyond boundaries—and channeled them into mastering the art of code.

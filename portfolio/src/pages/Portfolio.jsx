@@ -1,23 +1,28 @@
 import Image from "../assets/bookbusta.png";
 import Project from "../components/Project";
+import Image2 from "../assets/ontherocks.png";
+import Image3 from "../assets/notetaker.png"
 
 function Portfolio() {
   const projs = [
     {
-      name: "Proj 1",
+      name: "Bookbusta",
       link: "https://bookbusta-950538aa625f.herokuapp.com/",
       image: Image,
     },
     {
-      name: "Proj 1",
-      link: "https://www.google.com/",
-      image: Image,
+      name: "On the Rocks",
+      link: "https://blickenderfer.github.io/ontherocks/",
+      image: Image2,
     },
     {
-      name: "Proj 1",
-      link: "https://www.google.com/",
-      image: Image,
+      name: "Note Taker",
+      link: "https://github.com/jtpham13/note-taker",
+      image: Image3,
     },
+    {
+      
+    }
   ];
 
   return (
