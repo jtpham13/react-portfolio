@@ -1,8 +1,8 @@
 import Image from "../assets/bookbusta.png";
 import Project from "../components/Project";
 import Image2 from "../assets/ontherocks.png";
-import Image3 from "../assets/notetaker.png";
-import Image4 from "../assets/habityourway.png"
+// import Image3 from "../assets/notetaker.png";
+import Image4 from "../assets/habityourway.png";
 
 function Portfolio() {
   const projs = [
@@ -18,13 +18,13 @@ function Portfolio() {
     },
     {
       name: "Note Taker",
-      link: "https://github.com/jtpham13/note-taker",
-      image: Image3,
+      link: "https://github.com/slmov215/habit-your-way",
+      image: Image4,
     },
     {
-      name: "Habit your Way",
-      link: "https://github.com/slmov215/habit-your-way",
-      image: Image4
+      // name: "Habit your Way",
+      // link: "https://github.com/slmov215/habit-your-way",
+      // image: Image4
       
     }
   ];
