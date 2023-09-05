@@ -17,7 +17,7 @@ function Portfolio() {
       image: Image2,
     },
     {
-      name: "Note Taker",
+      name: "Habit your way",
       link: "https://github.com/slmov215/habit-your-way",
       image: Image4,
     },
