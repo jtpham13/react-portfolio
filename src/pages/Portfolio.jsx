@@ -22,9 +22,9 @@ function Portfolio() {
       image: Image4,
     },
     {
-      // name: "Habit your Way",
-      // link: "https://github.com/slmov215/habit-your-way",
-      // image: Image4
+      name: "Habit your Way",
+      link: "https://github.com/slmov215/habit-your-way",
+      image: Image4
       
     }
   ];
